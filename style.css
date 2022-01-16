@@ -20,16 +20,16 @@ body {
     padding: 1.5rem;
 }
 
-.fundo-reconhecimento {
+.fundo__reconhecimento {
     font-weight: 400;
     margin-bottom: 2rem;
 }
 
-.fundo-buscar {
+.fundo__buscar {
     margin-bottom: 2rem;
 }
 
-.fundo-buscar-botao {
+.fundo__buscar__botao {
     background-color: #f44336;
     border: none;
     color: white;
@@ -43,11 +43,18 @@ body {
 
     cursor: pointer;
     border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.fundo-resultado {
+.fundo__resultado {
     font-weight: 900;
     font-size: 1.5rem;
     margin-bottom: 2rem;
+}
+
+.sombra {
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.sombra-texto {
+    text-shadow: black 0.1em 0.1em 0.2em
 }
